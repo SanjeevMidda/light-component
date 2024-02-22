@@ -1,0 +1,27 @@
+* {
+  margin: 0px;
+  transition: all 1s;
+  font-family: Helvetica, sans-serif;
+  font-weight: 800;
+}
+
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100dvh;
+}
+
+.light {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+}
+
+.lightContainer {
+  display: flex;
+  gap: 10px;
+  width: 60dvw;
+  height: 40dvw;
+  flex-wrap: wrap;
+}
